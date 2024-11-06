@@ -1,0 +1,34 @@
+steps of projects
+       1.	open kali linux
+       2.	go to root terminal
+       3.	type bettercap hit enter.
+       4.	If we want see the modules type help 
+STEPS:
+       •	Bettercap (enter)
+             o	Help 
+       •	Help arp.spoof       
+             o	set arp.spoof.fullduplex true (enter)
+             o	set arp.spoof.target (ip address) (enter)
+             o	arp.spoof on (enter)
+      •	net.probe on
+      •	net.sniff on
+
+      •	AFTER WE MONITOR ALL THE TRAFFIC WE NEED TO STOP THE PROCESS PRESS CTRL+C
+      
+EXPLANATION:
+      •	  Help arp.spoof       
+          ( Keep spoofing selected hosts on the network)
+            o	set arp.spoof.fullduplex true (this commend will help to attack both router and ip address)
+            o	set arp.spoof.target (ip address) (enter)(this commend will help to mention the particular target ip address)
+            o	arp.spoof on (enter)(this commen is use to start the spoofing)
+
+     •	Help
+            (Type help it will show all the modules of bettercap uses)
+
+     •	Net.probe on
+           (Keep probing for new host on the network by sending dummy udp packets to every possible IP on the subnet)
+
+•	Net.sniff on 
+          (Sniff packets from the network)
+
+
